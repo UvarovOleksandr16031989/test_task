@@ -1,0 +1,61 @@
+.insurance_list__title
+  @include font_OpenSans(24px,400)
+
+
+.insurance_list
+  padding: 44px 0 0px 0
+
+.insurance_list--box
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  border-bottom: 1px solid rgba(28, 27, 26, 0.07)
+  padding-bottom: 14px
+  margin-left: 3px
+
+.insurance_list__menu__link--table
+  display: block
+  width: 18px
+  height: 2px
+  background-color: #1C1B1A
+  margin-top: 3px
+
+.insurance_list__menu__link--card
+  display: inline-block
+  width: 4px
+  height: 4px
+  border: 2px solid rgba(#1C1B1A , .4)
+  margin:  0 1px
+
+.insurance_list__menu__link
+  max-width: 22px
+  display: inline-block
+  word-spacing: -2px
+  line-height: 10px
+
+
+.insurance_list__menu__link--table_list
+  margin-left: 27px
+  position: relative
+  top: -10px
+  left: -2px
+  margin-bottom: -9px
+  word-spacing: -3px
+  &:before
+    content: ''
+    display: inline-block
+    background-color: rgba(#1C1B1A , .4)
+    width: 1px
+    height: 29px
+    position: absolute
+    right: 35px
+    top: -4px
+
+.insurance_list__menu
+  margin-top: 1px
+
+.insurance_list__menu__link--table_card
+  background-color: rgba(#1C1B1A , .4)
+
+.insurance_list__menu__link--card_card
+  border: 2px solid #1C1B1A
